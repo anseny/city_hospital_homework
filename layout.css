@@ -49,7 +49,7 @@
     background: orange;
 }
 /* 引导栏 */
-.caption{
+.nav{
     background:#60bff2;
     height:35px;
     line-height: 35px;
@@ -64,47 +64,33 @@
     text-align: center;
     margin-left:18px;
 }
+/* 医院简介区域 */
+.brief{
+    height:257px;
+    background: #f7f7f7;
+    margin-top:37px;
+}
+/* 医院体系区域 */
 .content{
-    width:1000px;
-    margin:0 auto;
-    margin-top:50px;
+    height:458px;    
 }
-.content_header{
-    width:100%;
-    height:70px;
-    border:1px solid #f5f5f5;
-    margin-bottom:20px;
-    position: relative;
-    /* padding-top:20px; */
-    /* background: url("img/cont.jpg") no-repeat 0 -20px; */
+.content .list{
+    height:28px;
+    border-bottom:1px #60bff2 solid;
+    margin-bottom:22px;
 }
-.content_header .tit{
-    display: inline-block;
-    width:138px;  
-    height:30px;  
-    color:#ffffff;
-    font-size: 15px;
-    position: absolute;
-    top:-30px;
-    left:0;
-    z-index: 2;
-    background: url("img/cont.jpg") no-repeat 0 0;
-    /* text-align: center; */
-    padding-left:20px;
-    line-height: 30px;
+.tab{
+    height:460px;
 }
-.content_header>.tit img{
+.tab-content{
+    width:707px;
+    height:406px;
+    float: left;
+    border:1px #f4f6fa solid;
 }
-.content_left{
-    width:210px;
-    float:left;
-    border:1px solid #f5f5f5;
-    margin-right: 20px;
-    height:987px;
-}
-.content_right{
-    width:765px;
+.rule{
+    height:282px;
+    width:269px;
     float: right;
-    height:1200px;
-    border:1px solid #f5f5f5;
+    border:1px #f4f6fa solid;
 }

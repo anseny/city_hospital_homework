@@ -1,0 +1,108 @@
+.brief-caption{
+    width:945px;
+    height:51px;
+    margin:0 auto;
+    border-bottom:1px solid #dcdddd;
+    overflow: hidden;
+}
+.brief-name{
+    font-size: 18px;
+    float: left;
+    height:51px;
+    line-height: 51px;
+}
+.foc{
+    color:#f29600;
+    height:51px;
+    line-height: 55px;
+    float: left;
+    font-size: 13px;
+    margin-left:15px;
+}
+.level{
+    float: right;
+    height:51px;
+    line-height: 51px;
+    font-size: 12px;
+}
+.brief-content{
+    height:257px;
+}
+.container{
+    height: 257px;
+    padding-left: 223px;
+    padding-right: 269px;   
+    position: relative;
+    margin-top:13px;
+}
+.hospital{
+    width:197px;
+    height:148px;
+    position:absolute;
+    top:0px;
+    left:26px;
+}
+.map{
+    width:247px;
+    height:163px;
+    position:absolute;
+    top:0px;
+    right:22px;
+}
+
+.dress,.web,.phone,.place{
+    height:33px;
+    line-height: 33px;
+    margin-left:55px;
+}
+.content{
+    height:460px;
+    margin-top:36px;
+}
+.content .list{
+    color:#00b3ec;
+    font-size: 13px;
+    height:28px;
+    line-height: 28px;
+}
+.list li{
+    display:inline-block;
+    width:111px;
+    text-align: center;
+}
+.focus{
+    background: #00b3ec;
+    color:#ffffff;
+}
+.tab-block{
+    height:40px;
+    background: #f4f6fa;
+    line-height: 40px;
+    padding-left: 30px;
+
+}
+.contai{
+    width:100%;
+    height:90px;
+}
+.type{
+    width:150px;
+    height:80px;
+    display: inline-block;
+    text-align: center;
+    background: #f2fbff;
+}
+.subject{
+    width:554px;
+    height:80px;
+    display: inline-block;
+}
+.subject span{
+    display: inline-block;
+    width:115px;
+    height:30%;
+    text-align: center;
+}
+.tab{
+    overflow: hidden;
+}
