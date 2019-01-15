@@ -34,6 +34,23 @@
     padding-right: 269px;   
     position: relative;
     margin-top:13px;
+    /* background: url("image/icon-web.png") no-repeat 260px 10px; */
+}
+.container-block{
+    padding-left:55px;
+    position: relative;
+}
+.imgcont{
+    width:20px;
+    height:120px;
+    position: absolute;
+    left:22px;
+    top:9px;
+    overflow: hidden;
+}
+.biao{
+    width:20px;
+    height:155px;
 }
 .hospital{
     width:197px;
@@ -53,7 +70,6 @@
 .dress,.web,.phone,.place{
     height:33px;
     line-height: 33px;
-    margin-left:55px;
 }
 .content{
     height:460px;
@@ -87,15 +103,17 @@
 }
 .type{
     width:150px;
-    height:80px;
-    display: inline-block;
+    height:90px;
+    /* display: inline-block; */
+    float: left;
     text-align: center;
     background: #f2fbff;
 }
 .subject{
     width:554px;
     height:80px;
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
 }
 .subject span{
     display: inline-block;
@@ -105,4 +123,141 @@
 }
 .tab{
     overflow: hidden;
+}
+.rule-caption{
+    width:100%;
+    height:44px;
+    font-size: 15px;
+    background:#f4f6fa;
+    padding-left:15px;
+    /* padding-top:10px; */
+    line-height:44px;
+}
+.rule-content{
+    width:94%;
+    height:242px;
+    overflow-y: scroll;
+    margin-top:15px;
+    margin-left:15px
+}
+.rule-content span{
+    font-size: 13px;
+    display: inline-block;
+    width:65px;
+    /* float: left; */
+}
+.rule-content-item{
+    margin-bottom:10px;
+}
+.rule-content-item-x{
+    font-size: 12px;
+    color:#acacac;
+    display: inline-block;
+    width:171px;
+    float: right;
+    margin-top:5px;
+}
+/* 底部 */
+.footer{
+    width:100%;
+    height:68px;
+    line-height: 68px;
+    font-size: 14px;
+    color:#acacac;
+    text-align: center;
+    background: #dcdddd;
+}
+/* 订单查询搜索框 */
+.search2-cont{
+    height: 300px;
+    border-top:1px solid #dcdddd;
+    border-bottom:1px solid #dcdddd;
+    position: relative;
+}
+.search2-content{
+    width:400px;
+    height:30px;
+    line-height: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-15px;
+    margin-left:-200px;
+}
+.search2{
+    width:150px;
+    height:28px;
+    outline: none;
+    border:1px solid #dcdddd;
+    /* float:right; */
+    line-height: 28px;
+}
+.order-button{
+    width:90px;
+    height:30px;
+    background: #00b3ec;
+    outline: none;
+    border:none;
+    margin-left:5px;
+    color:#fff;
+    /* float:right; */
+    /* margin-top:2px; */
+}
+/* 头部搜索框 */
+.header_search{
+    width:327px;
+    height:38px;
+    background: url("image/ui-search.jpg") no-repeat 0 0;
+}
+.hide{
+    width:64px;
+    height:35px;
+    /* background: #f29600; */
+    color:white;
+    /* display: inline-block; */
+    float: left;
+    /* text-align: center; */
+    line-height: 35px;
+    padding-left:10px;
+    
+}
+.search{
+    width:215px;
+    height:36px;
+    border:none;
+    outline: none;
+    float: left;
+    /* display: inline-block; */
+    line-height: 36px;
+    margin-top:1px;
+}
+.header-button{
+    width:34px;
+    height:34px;
+    background: #fec009 url("image/shousuo.png") no-repeat 0 0;
+    float: left;
+    /* display: inline-block; */
+    outline: none;
+    border:none;
+    margin-left:2px;
+}
+.hide1{
+    width:71px;
+    height:60px;
+    position:absolute;
+    top:38px;
+    left:0px;
+    background: #fff;
+    z-index: 3;
+    text-align: center;
+    color:#dcdddd;
+    display: none;
+}
+.hide1 div:hover{
+    /* width:71px;
+    height:38px; */
+    background: #f2fbff;
+}
+.introduce{
+    display: none;
 }

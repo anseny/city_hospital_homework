@@ -41,12 +41,12 @@
     height:100%;
 }
 .header_search{
-    width:325px;
-    height:35px;
+    /* width:325px;
+    height:35px; */
     position: absolute;
     right:0px;
     top:28px;
-    background: orange;
+    /* background: orange; */
 }
 /* 引导栏 */
 .nav{
