@@ -124,6 +124,9 @@
 .tab{
     overflow: hidden;
 }
+.rule{
+    overflow: hidden;
+}
 .rule-caption{
     width:100%;
     height:44px;
@@ -135,27 +138,31 @@
 }
 .rule-content{
     width:94%;
-    height:242px;
-    overflow-y: scroll;
-    margin-top:15px;
+    height:225px;
+    overflow-y: auto;
+    padding-top:15px;
     margin-left:15px
 }
 .rule-content span{
     font-size: 13px;
-    display: inline-block;
+    /* display: inline-block; */
     width:65px;
-    /* float: left; */
+    float: left;
 }
 .rule-content-item{
-    margin-bottom:10px;
+    margin-bottom:15px;
+    overflow: hidden;
 }
 .rule-content-item-x{
     font-size: 12px;
     color:#acacac;
-    display: inline-block;
+    /* display: inline-block; */
     width:171px;
     float: right;
-    margin-top:5px;
+    /* margin-top:5px; */
+}
+.empty{
+    height:300px;
 }
 /* 底部 */
 .footer{
@@ -166,6 +173,10 @@
     color:#acacac;
     text-align: center;
     background: #dcdddd;
+    /* position: fixed; */
+    bottom:0;
+    margin-top:100px;
+
 }
 /* 订单查询搜索框 */
 .search2-cont{
@@ -260,4 +271,8 @@
 }
 .introduce{
     display: none;
+}
+.five{
+    margin-top:100px;
+    /* margin-bottom:100px; */
 }
